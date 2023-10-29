@@ -1,0 +1,11 @@
+#Ignora archivos del sistema MAC
+.DS_store
+
+#Ignora la carperta img_cache
+img_cache
+
+#Ignora todos los archivos de txt
+*.txt
+
+#Ignora archivo iPhone.jpg 
+iPhone.jpg
