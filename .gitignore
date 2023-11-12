@@ -9,3 +9,6 @@ img_cache
 
 #Ignora archivo iPhone.jpg 
 iPhone.jpg
+
+#Ignora node_modules
+node_modules
