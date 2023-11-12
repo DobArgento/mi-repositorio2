@@ -146,5 +146,13 @@ ul {
     transform: translateY(0);
   }
 }
+.d-block {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-width: 600px;
+  margin: 0 auto;
+  transition: transform 2s ease;
+}
 
 /*# sourceMappingURL=styles.css.map */

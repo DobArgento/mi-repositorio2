@@ -163,5 +163,15 @@ ul {
         }
         } 
     
-    
+   //slider
 
+   .d-block {
+    width: 100%;      // Ajuste del ancho del carousel
+    max-width: 100%;  // Ajuste del ancho máximo de las imágenes
+    height: auto;     // Proporción de aspecto
+    max-width: 600px; // Ajusta el ancho máximo según tus necesidades
+    margin: 0 auto;   // Centra el carrusel en la página
+    transition: transform 2s ease;  // Ajuste del tiempo de transición (en este caso, 2 segundos)
+  }
+
+  //fin slider 
