@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@300&display=swap");
+h4 {
+  font-size: xx-small;
+}
+
+p {
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* Estilo banner */
+.banner {
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 4%;
+}
+
+/* Estilo redes */
+#redes {
+  font-weight: bold;
+}
+
+/* Fin estilo redes */
+/* Estilo palabras redes */
+footer ul li a {
+  color: red;
+  font-weight: bold;
+}
+
+/* Fin estilo palabras redes */
+/* Estilo descripción de la página */
+.descripcion-de-la-pag {
+  color: orange;
+}
+
+/* Fin de estilo descripción de la página */
+/* Estilo de las listas no ordenadas (ul's) */
+ul {
+  list-style-type: none;
+}
+
+/* Fin de estilo de las listas no ordenadas (ul's) */
+/* Regla Media Query */
+/* Mobile */
+/* Tablet */
+/* Desktop */
+/* Fin regla media query */
+/* Ajuste de imágenes del inicio */
+.banner {
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  height: 100%;
+  width: 150px;
+}
+
+.body {
+  background-color: rgba(0, 0, 0, 0.854);
+}
+
+#text {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

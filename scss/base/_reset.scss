@@ -1,0 +1,86 @@
+h4 {
+    font-size: xx-small;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Estilo banner */
+.banner {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 4%;
+}
+
+/* Estilo redes */
+#redes {
+    font-weight: bold;
+}
+/* Fin estilo redes */
+
+/* Estilo palabras redes */
+footer {
+    ul {
+        li {
+            a {
+                color: red;
+                font-weight: bold;
+            }
+        }
+    }
+}
+/* Fin estilo palabras redes */
+
+/* Estilo descripción de la página */
+.descripcion-de-la-pag {
+    color: orange;
+}
+/* Fin de estilo descripción de la página */
+
+/* Estilo de las listas no ordenadas (ul's) */
+ul {
+    list-style-type: none;
+}
+/* Fin de estilo de las listas no ordenadas (ul's) */
+
+/* Regla Media Query */
+
+/* Mobile */
+@media only screen and (max-width: 500px) {}
+
+/* Tablet */
+@media only screen and (max-width: 501px) and (max-width: 961px) {}
+
+/* Desktop */
+@media only screen and (max-width: 961px) {}
+/* Fin regla media query */
+
+/* Ajuste de imágenes del inicio */
+.banner {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: 150px;
+}
+
+
+// Body Styles
+.body {
+    background-color:  rgba(0, 0, 0, 0.854);
+}
+
+//Text color
+#text{
+    color: white;
+}
+
+
+
+
+
