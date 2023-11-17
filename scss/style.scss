@@ -1,13 +1,11 @@
-// scss/style.scss
-
-@import "./base/reset";
+// Varias 
+@import "./utilities/variables";
 
 // Tipos
 @import "./base/tipografias";
 
-// Varias 
-@import "./utilities/variables"
 
+// scss/style.scss
 
-
+@import "./base/reset";
 
