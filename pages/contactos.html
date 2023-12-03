@@ -4,51 +4,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contacto</title>
-    <!--CSS LINES-->
-    <link rel="stylesheet" href="../css/styles.css">
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <!--Bootstrap-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <!--Java LINES-->
+   <!--CDN JQUERY-->
+   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+   <!--Ruta de archivo js-->
+   <script src="../js/navbar.js"></script>
+   <!--CSS LINES-->
+   <link rel="stylesheet" href="../css/styles.css">
   </head>
   <body class="body">
-    
-    <!--Scripts de Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    
-    <h1>Contacto</h1>
 
   <!--Nav Bar-->
-    <header>
-        <nav class="navbar-expand-lg navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img src="../img/Logo.png" alt="Max Celular Logo" width="30" height="24" class="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav align-items-center">
-              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-              <a class="nav-link" href="formulario.html">Compras</a>
-              <a class="nav-link" href="productos.html">Productos</a>
-              <a class="nav-link" href="servicio.html">Servicio Técnico</a>
-              <a class="nav-link disabled" aria-disabled="true"></a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-
-
-
-
-    </header>
-
-
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="../index.html"><img src="../img/Logo.png" alt="Max Celular" width="90" height="90"></a>
+      </div>
+      <nav>
+    <div class="nav-mobile">
+      <a id="nav-toggle" href="#!"><span></span></a>
+    </div>
+    <ul class="nav-list">
+      <li><a href="../index.html">Inicio</a></li>
+      <li> <a href="formulario.html">Compras</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="servicio.html">Servicio Técnico</a></li>
+    </ul>
+  </nav>
+      </div>
+  </section>
+<br>
+<br>
   <!-- Formularios -->
-
-    <form action="form.php" method="post"> 
+    <div class="container">
+      <form action="https://formsubmit.co/maxcelular677@gmail.com" method="post" class="form"> 
         <label for="" id="text">Nombre y Apellido</label>
         <input type="text" name="Nombre" id="Nombre" placeholder="Steven Kitchoff" required> 
         <label for="" id="text">Mail</label>
@@ -71,26 +62,24 @@
         </textarea>
   
         <!-- Boton para enviar el form-->
-        <input type="submit" value="Enviar">
-
-
+        <button type="submit" class="btn btn-danger">Enviar</button>
+        
+    </form>
+    </div>
         <!--Footer-->
-    <hr>
-
-
-    <footer>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1153818122543!2d-58.435083523386254!3d-34.601243757368906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb77a5f5e2f1%3A0xb6b223a85858a812!2sMax%20Cell!5e0!3m2!1ses!2sar!4v1695077203639!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer id="footer">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1153818122543!2d-58.435083523386254!3d-34.601243757368906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb77a5f5e2f1%3A0xb6b223a85858a812!2sMax%20Cell!5e0!3m2!1ses!2sar!4v1695077203639!5m2!1ses!2sar" width="70%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <p id="text">Copyright todos los derechos reservados</p>
 
       <ul>
           <li id="redes">
-              <a href="https://www.facebook.com/">Facebook</a>
+              <a href="https://www.facebook.com/"><img src="../img/icons8-facebook-48.png" alt="Facebook"></a>
           </li>
           <li id="redes">
-              <a href="https://www.instagram.com/">Instagram</a>
+              <a href="https://www.instagram.com/"><img src="../img/icons8-instagram-48.png" alt="Instagram"></a>
           </li>
           <li id="redes">
-              <a href="https://www.whatsapp.com/?lang=es_LA">Whatsapp</a>
+              <a href="https://www.whatsapp.com/?lang=es_LA"><img src="../img/icons8-whatsapp-48.png" alt="WhatsApp"></a>
           </li>
       </ul>
 
@@ -99,7 +88,11 @@
 
 
 
-
+  <!--Scripts de Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  
 
 
 
