@@ -206,7 +206,7 @@ nav ul li ul li a {
 .form {
   display: flex;
   flex-direction: column;
-  padding: 2vw 4vw;
+  padding: 2em 4em;
   width: 90%;
   max-width: 600px;
   border-radius: 10px;
@@ -214,7 +214,7 @@ nav ul li ul li a {
 
 .container {
   width: 100%;
-  height: 30vw;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,6 +227,11 @@ nav ul li ul li a {
   justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+  .form {
+    width: 100%;
+  }
+}
 .slider {
   width: 1300px;
   max-width: 100vw;
